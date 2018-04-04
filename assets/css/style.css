@@ -1,3 +1,38 @@
 .player {
     height: 300px;
 }
+
+.jumbotron {
+    background-color: teal;
+    color: white;
+}
+
+.btn-primary {
+    background-color: teal;
+    border-color: teal;
+    color: white;
+}
+
+.brn-primary:hover {
+    background-color: #008B8B;
+    border-color: #008B8B;
+}
+
+.card,
+.card-body, {
+    border-color: #00FFFF;
+}
+
+.card-header,
+.card-footer {
+    background-color: #00FFFF;
+    color: white;
+    border-color: #00FFFF;
+}
+
+body {
+    background-image: url("../imgs/grid1.jpg");
+    background-repeat: repeat;
+    background-size: 100px 200px;
+
+}
