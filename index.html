@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Sheet</title>
+
+        <!-- Links go here -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Our style -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="text-center">ROCK | PAPER | SCISSORS</h1>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Game Space</h2>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card player text-center">
+                                    <div class="card-header">
+                                        <h3>You</h3>
+                                    </div>
+                                    <div class="card-body" id="player-body">
+
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary" id="rock-btn">Rock</button>
+                                        <button class="btn btn-primary" id="paper-btn">Paper</button>
+                                        <button class="btn btn-primary" id="scissor-btn">Scissors</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card player text-center">
+                                    <div class="card-header">
+                                        <h3>Results</h3>
+                                    </div>
+                                    <div class="card-body" id="results-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card player text-center">
+                                    <div class="card-header">
+                                        <h3>Them</h3>
+                                    </div>
+                                    <div class="card-body" id="op-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Links go here -->
+        <!-- jquery JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Firebase JS -->
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <!-- Our JS -->
+        <script src="assets/javascript/app.js"></script>
+    </body>
+</html>
